@@ -20,7 +20,7 @@ export default {
       tema: 'Microcontroladores y sensores',
       titulo: 'Cuestionario',
       introduccion:
-        '<b> Objetivo:</b> Evaluar la comprensión y el uso adecuado de las herramientas básicas en la ventana <em>Board</em> del <em>software</em> EAGLE.',
+        '<br><b> Objetivo:</b> evaluar de manera integral los conocimientos en lógica, algoritmia, bases de datos relacionales, SQL y NoSQL, fortaleciendo el pensamiento analítico y la comprensión de los conceptos fundamentales relacionados con el diseño y la gestión de sistemas de información modernos.',
       barajarPreguntas: true,
       titulo_aprobado: '¡BUEN TRABAJO!',
       titulo_reprobado: 'VUELVA A INTENTARLO.',
@@ -28,400 +28,345 @@ export default {
         {
           id: 1,
           texto:
-            '¿Cuál es la función principal de la herramienta <em>Layer</em> en la ventana <em>Board</em>?',
+            '¿Cuál es el objetivo principal de un algoritmo dentro de un sistema?',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
+              texto: 'Resolver un problema mediante pasos ordenados.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'Almacenar información en tablas.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Crear relaciones entre datos.',
               esCorrecta: false,
             },
-            {
-              id: 'd',
-              texto: 'bValues',
-              esCorrecta: false,
-            },
+            { id: 'd', texto: 'Gestionar usuarios.', esCorrecta: false },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            '¡Excelente trabajo! Un algoritmo siempre busca resolver un problema mediante una secuencia lógica de pasos.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 2,
           texto:
-            '¿Qué herramienta permite agregar texto en la ventana <em>Board</em>?',
+            '¿Cuál es una característica clave de las bases de datos NoSQL?',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
-            {
-              id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'bNames',
-              esCorrecta: false,
-            },
-            {
-              id: 'c',
-              texto: 'tStop',
-              esCorrecta: false,
-            },
-            {
-              id: 'd',
-              texto: 'bValues',
-              esCorrecta: false,
-            },
+            { id: 'a', texto: 'Uso exclusivo de tablas.', esCorrecta: false },
+            { id: 'b', texto: 'Esquema rígido.', esCorrecta: false },
+            { id: 'c', texto: 'Flexibilidad en los datos.', esCorrecta: true },
+            { id: 'd', texto: 'Dependencia de SQL.', esCorrecta: false },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            '¡Excelente trabajo! NoSQL se caracteriza por manejar estructuras flexibles y datos no estructurados.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 3,
-          texto: '¿Para qué sirve la herramienta <em>Show</em> en EAGLE?',
+          texto:
+            '¿Qué problema busca reducir la normalización en bases de datos?',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
-            {
-              id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'bNames',
-              esCorrecta: false,
-            },
-            {
-              id: 'c',
-              texto: 'tStop',
-              esCorrecta: false,
-            },
-            {
-              id: 'd',
-              texto: 'bValues',
-              esCorrecta: false,
-            },
+            { id: 'a', texto: 'Seguridad.', esCorrecta: false },
+            { id: 'b', texto: 'Redundancia.', esCorrecta: true },
+            { id: 'c', texto: 'Velocidad.', esCorrecta: false },
+            { id: 'd', texto: 'Acceso.', esCorrecta: false },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            '¡Excelente trabajo! La normalización elimina duplicidad de datos y mejora la integridad.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 4,
           texto:
-            '¿Qué botón se utiliza para cambiar entre las ventanas <em>Schematic</em> y <em>Board</em>?',
+            '¿Qué elemento permite identificar de forma única un registro?',
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
-            {
-              id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'bNames',
-              esCorrecta: false,
-            },
-            {
-              id: 'c',
-              texto: 'tStop',
-              esCorrecta: false,
-            },
-            {
-              id: 'd',
-              texto: 'bValues',
-              esCorrecta: false,
-            },
+            { id: 'a', texto: 'Clave foránea.', esCorrecta: false },
+            { id: 'b', texto: 'Índice.', esCorrecta: false },
+            { id: 'c', texto: 'Campo.', esCorrecta: false },
+            { id: 'd', texto: 'Clave primaria.', esCorrecta: true },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            '¡Excelente trabajo! La clave primaria garantiza unicidad dentro de la tabla.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 5,
-          texto: '¿Qué permite hacer la herramienta <em>Route</em>?',
-          imagen: require('@/assets/actividad/imagen1.png'),
+          texto: '¿Qué tipo de entidad depende de otra para existir?',
+          imagen: require('@/assets/actividad/imagen5.png'),
           barajarRespuestas: true,
           opciones: [
-            {
-              id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'bNames',
-              esCorrecta: false,
-            },
-            {
-              id: 'c',
-              texto: 'tStop',
-              esCorrecta: false,
-            },
-            {
-              id: 'd',
-              texto: 'bValues',
-              esCorrecta: false,
-            },
+            { id: 'a', texto: 'Entidad fuerte.', esCorrecta: false },
+            { id: 'b', texto: 'Entidad independiente.', esCorrecta: false },
+            { id: 'c', texto: 'Entidad débil.', esCorrecta: true },
+            { id: 'd', texto: 'Entidad lógica.', esCorrecta: false },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            '¡Excelente trabajo! Las entidades débiles dependen de una fuerte para su identificación.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 6,
-          texto:
-            '¿Qué función tiene la herramienta <em>Auto</em> en la ventana <em>Board</em>?',
-          imagen: require('@/assets/actividad/imagen2.png'),
+          texto: '¿Qué lenguaje permite crear tablas en una base de datos?',
+          imagen: require('@/assets/actividad/imagen6.png'),
           barajarRespuestas: true,
           opciones: [
-            {
-              id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'bNames',
-              esCorrecta: false,
-            },
-            {
-              id: 'c',
-              texto: 'tStop',
-              esCorrecta: false,
-            },
-            {
-              id: 'd',
-              texto: 'bValues',
-              esCorrecta: false,
-            },
+            { id: 'a', texto: 'DML.', esCorrecta: false },
+            { id: 'b', texto: 'DDL.', esCorrecta: true },
+            { id: 'c', texto: 'DCL.', esCorrecta: false },
+            { id: 'd', texto: 'VDL.', esCorrecta: false },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            '¡Excelente trabajo! DDL se utiliza para definir estructuras como tablas.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 7,
-          texto:
-            '¿Cuál es una recomendación al ubicar los componentes en la ventana <em>Board</em>?',
-          imagen: require('@/assets/actividad/imagen3.png'),
+          texto: '¿Qué comando se usa para consultar datos?',
+          imagen: require('@/assets/actividad/imagen7.png'),
           barajarRespuestas: true,
           opciones: [
-            {
-              id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'bNames',
-              esCorrecta: false,
-            },
-            {
-              id: 'c',
-              texto: 'tStop',
-              esCorrecta: false,
-            },
-            {
-              id: 'd',
-              texto: 'bValues',
-              esCorrecta: false,
-            },
+            { id: 'a', texto: 'INSERT.', esCorrecta: false },
+            { id: 'b', texto: 'DELET.', esCorrecta: false },
+            { id: 'c', texto: 'UPDATE.', esCorrecta: false },
+            { id: 'd', texto: 'SELECT.', esCorrecta: true },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            '¡Excelente trabajo! SELECT es el comando principal para recuperar información.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 8,
-          texto:
-            '¿Cuál de las siguientes capas se utiliza para añadir texto en el diseño?',
-          imagen: require('@/assets/actividad/imagen4.png'),
+          texto: '¿Qué lenguaje controla permisos en una base de datos?',
+          imagen: require('@/assets/actividad/imagen8.png'),
           barajarRespuestas: true,
           opciones: [
-            {
-              id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'bNames',
-              esCorrecta: false,
-            },
-            {
-              id: 'c',
-              texto: 'tStop',
-              esCorrecta: false,
-            },
-            {
-              id: 'd',
-              texto: 'bValues',
-              esCorrecta: false,
-            },
+            { id: 'a', texto: 'DDL.', esCorrecta: false },
+            { id: 'b', texto: 'DML.', esCorrecta: false },
+            { id: 'c', texto: 'DCL.', esCorrecta: true },
+            { id: 'd', texto: 'TCL.', esCorrecta: false },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            '¡Excelente trabajo! DCL gestiona accesos mediante GRANT y REVOKE.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 9,
-          texto:
-            'La herramienta <em>Text</em> en la ventana <em>Board</em> solo permite cambiar el color de las capas.',
-          imagen: require('@/assets/actividad/imagen1.png'),
+          texto: '¿Qué es una vista en una base de datos?',
+          imagen: require('@/assets/actividad/imagen9.png'),
           barajarRespuestas: true,
           opciones: [
-            {
-              id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: false,
-            },
-            {
-              id: 'b',
-              texto: 'Falso',
-              esCorrecta: true,
-            },
+            { id: 'a', texto: 'Tabla física.', esCorrecta: false },
+            { id: 'b', texto: 'Copia de datos.', esCorrecta: false },
+            { id: 'c', texto: 'Índice.', esCorrecta: false },
+            { id: 'd', texto: 'Tabla virtual.', esCorrecta: true },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            '¡Excelente trabajo! Las vistas no almacenan datos, solo los muestran.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 10,
-          texto:
-            'La herramienta <em>Layer</em> permite seleccionar y editar capas para definir márgenes, pistas y componentes.',
-          imagen: require('@/assets/actividad/imagen2.png'),
+          texto: '¿Qué modelo NoSQL usa nodos y relaciones?',
+          imagen: require('@/assets/actividad/imagen10.png'),
           barajarRespuestas: true,
           opciones: [
-            {
-              id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'Falso',
-              esCorrecta: false,
-            },
+            { id: 'a', texto: 'Documental.', esCorrecta: false },
+            { id: 'b', texto: 'Clave-valor.', esCorrecta: false },
+            { id: 'c', texto: 'Columnar.', esCorrecta: false },
+            { id: 'd', texto: 'Grafos.', esCorrecta: true },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            '¡Excelente trabajo! Los grafos son ideales para relaciones complejas.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 11,
-          texto:
-            'El botón "<em>BOARD</em>" en EAGLE solo sirve para borrar componentes en el diseño.',
-          imagen: require('@/assets/actividad/imagen3.png'),
-          barajarRespuestas: true,
-          opciones: [
-            {
-              id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: false,
-            },
-            {
-              id: 'b',
-              texto: 'Falso',
-              esCorrecta: true,
-            },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-        {
-          id: 12,
-          texto:
-            'La herramienta <em>Show</em> permite resaltar conexiones para facilitar la identificación de redes.',
-          imagen: require('@/assets/actividad/imagen4.png'),
-          barajarRespuestas: true,
-          opciones: [
-            {
-              id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'Falso',
-              esCorrecta: false,
-            },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-        {
-          id: 13,
-          texto:
-            'La función <em>Auto</em> se utiliza para enrutado automático en la ventana <em>Board</em>.',
+          texto: '¿Qué modelo almacena datos en formato JSON?',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
-            {
-              id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'Falso',
-              esCorrecta: false,
-            },
+            { id: 'a', texto: 'Columnar.', esCorrecta: false },
+            { id: 'b', texto: 'Documental.', esCorrecta: true },
+            { id: 'c', texto: 'Grafos.', esCorrecta: false },
+            { id: 'd', texto: 'Relacional.', esCorrecta: false },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            '¡Excelente trabajo! Las bases documentales usan JSON o BSON.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
         },
         {
-          id: 14,
-          texto:
-            'La herramienta <em>Route</em> en la ventana <em>Board</em> ajusta automáticamente todas las pistas del diseño.',
+          id: 12,
+          texto: '¿Qué permite la clave foránea?',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
-            {
-              id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: false,
-            },
-            {
-              id: 'b',
-              texto: 'Falso',
-              esCorrecta: true,
-            },
+            { id: 'a', texto: 'Eliminar datos.', esCorrecta: false },
+            { id: 'b', texto: 'Crear tablas.', esCorrecta: false },
+            { id: 'c', texto: 'Relacionar tablas.', esCorrecta: true },
+            { id: 'd', texto: 'Ordenar datos.', esCorrecta: false },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            '¡Excelente trabajo! La clave foránea conecta tablas mediante relaciones.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
         },
         {
-          id: 15,
-          texto:
-            'Es recomendable organizar los componentes en bloques funcionales como transformación y filtrado en la ventana <em>Board</em>.',
+          id: 13,
+          texto: '¿Qué modelo de diseño representa entidades y relaciones?',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
-            {
-              id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'Falso',
-              esCorrecta: false,
-            },
+            { id: 'a', texto: 'Físico.', esCorrecta: false },
+            { id: 'b', texto: 'Lógico.', esCorrecta: false },
+            { id: 'c', texto: 'Conceptual.', esCorrecta: true },
+            { id: 'd', texto: 'Estructural.', esCorrecta: false },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            '¡Excelente trabajo! El modelo conceptual usa diagramas entidad-relación.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
+        },
+        {
+          id: 14,
+          texto: '¿Qué problema genera datos contradictorios?',
+          imagen: require('@/assets/actividad/imagen4.png'),
+          barajarRespuestas: true,
+          opciones: [
+            { id: 'a', texto: 'Redundancia.', esCorrecta: false },
+            { id: 'b', texto: 'Inconsistencia.', esCorrecta: true },
+            { id: 'c', texto: 'Integridad.', esCorrecta: false },
+            { id: 'd', texto: 'Relación.', esCorrecta: false },
+          ],
+          mensaje_correcto:
+            '¡Excelente trabajo! La inconsistencia ocurre cuando los datos no coinciden.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
+        },
+        {
+          id: 15,
+          texto: '¿Qué tipo de base de datos prioriza velocidad en memoria?',
+          imagen: require('@/assets/actividad/imagen5.png'),
+          barajarRespuestas: true,
+          opciones: [
+            { id: 'a', texto: 'Relacional.', esCorrecta: false },
+            { id: 'b', texto: 'NoSQL.', esCorrecta: false },
+            { id: 'c', texto: 'NewSQL.', esCorrecta: false },
+            { id: 'd', texto: 'In-Memory.', esCorrecta: true },
+          ],
+          mensaje_correcto:
+            '¡Excelente trabajo! Las bases In-Memory trabajan directamente en RAM.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
+        },
+        {
+          id: 16,
+          texto: '¿Qué describe cómo se consultan los datos en NoSQL?',
+          imagen: require('@/assets/actividad/imagen6.png'),
+          barajarRespuestas: true,
+          opciones: [
+            { id: 'a', texto: 'Claves.', esCorrecta: false },
+            { id: 'b', texto: 'Tablas.', esCorrecta: false },
+            { id: 'c', texto: 'Patrones de acceso.', esCorrecta: true },
+            { id: 'd', texto: 'Índices.', esCorrecta: false },
+          ],
+          mensaje_correcto:
+            '¡Excelente trabajo! El diseño NoSQL se basa en patrones de consulta.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
+        },
+        {
+          id: 17,
+          texto:
+            '¿Qué técnica guarda datos relacionados en un mismo documento?',
+          imagen: require('@/assets/actividad/imagen7.png'),
+          barajarRespuestas: true,
+          opciones: [
+            { id: 'a', texto: 'Referencia.', esCorrecta: false },
+            { id: 'b', texto: 'Normalización.', esCorrecta: false },
+            { id: 'c', texto: 'Indexación.', esCorrecta: false },
+            { id: 'd', texto: 'Incrustación.', esCorrecta: true },
+          ],
+          mensaje_correcto:
+            '¡Excelente trabajo! Incrustación reduce consultas complejas.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
+        },
+        {
+          id: 18,
+          texto: '¿Qué tipo de base de datos organiza datos por columnas?',
+          imagen: require('@/assets/actividad/imagen8.png'),
+          barajarRespuestas: true,
+          opciones: [
+            { id: 'a', texto: 'Grafos.', esCorrecta: false },
+            { id: 'b', texto: 'Columnar.', esCorrecta: true },
+            { id: 'c', texto: 'Documental.', esCorrecta: false },
+            { id: 'd', texto: 'Relacional.', esCorrecta: false },
+          ],
+          mensaje_correcto:
+            '¡Excelente trabajo! Las bases columnares optimizan análisis de datos.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
+        },
+        {
+          id: 19,
+          texto: '¿Qué garantiza la integridad referencial?',
+          imagen: require('@/assets/actividad/imagen9.png'),
+          barajarRespuestas: true,
+          opciones: [
+            { id: 'a', texto: 'Índices.', esCorrecta: false },
+            { id: 'b', texto: 'Tablas.', esCorrecta: false },
+            { id: 'c', texto: 'Claves foráneas.', esCorrecta: true },
+            { id: 'd', texto: 'Vistas.', esCorrecta: false },
+          ],
+          mensaje_correcto:
+            '¡Excelente trabajo! Asegura que los datos relacionados existan.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
+        },
+        {
+          id: 20,
+          texto: '¿Qué define la estructura de la base de datos?',
+          imagen: require('@/assets/actividad/imagen10.png'),
+          barajarRespuestas: true,
+          opciones: [
+            { id: 'a', texto: 'DML.', esCorrecta: false },
+            { id: 'b', texto: 'DCL.', esCorrecta: false },
+            { id: 'c', texto: 'VDL.', esCorrecta: false },
+            { id: 'd', texto: 'DDL.', esCorrecta: true },
+          ],
+          mensaje_correcto:
+            '¡Excelente trabajo! DDL define tablas, columnas y restricciones.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
         },
       ],
-      mensaje_final_aprobado: '¡Excelente! Ha superado la actividad.',
+      mensaje_final_aprobado:
+        'Ha superado la actividad y demuestra sólidos conocimientos sobre el componente formativo.',
       mensaje_final_reprobado:
-        'Le recomendamos volver a revisar el componente formativo e intentar nuevamente la actividad didáctica.',
+        'No ha superado la actividad. Le recomendamos volver a revisar el componente formativo e intentar nuevamente la actividad didáctica.',
     },
   }),
 }
