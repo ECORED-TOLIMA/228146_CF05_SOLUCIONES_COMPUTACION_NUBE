@@ -39,8 +39,8 @@
         figure
           img(src='@/assets/curso/tema2/img02.png', alt='Imagen decorativa')
     .row.justify-content-center.mb-4
-      .col.col-lg-10.col-12
-        p.mb-0(data-aos="fade-down") Para mayor claridad, se relaciona la representación de esta base de datos con la siguiente imagen:
+      .col.col-12
+        p.mb-0(data-aos="fade-down") Para mayor claridad, se relaciona la representación de esta base de datos con la siguiente figura:
     .row.justify-content-center.mb-4(data-aos="flip-up")
       .col-lg-10.col-12
         .titulo-sexto.color-acento-contenido
@@ -197,9 +197,9 @@
     p.mb-4(data-aos="fade-down") El adecuado funcionamiento de una base de datos relacional no depende únicamente de su estructura, sino también de la forma en que se gestionan aspectos clave como la redundancia, la inconsistencia y la integridad de los datos. Estos componentes representan factores críticos en la calidad de la información, ya que influyen directamente en la confiabilidad, eficiencia y mantenimiento del sistema.
     .row.justify-content-center.mb-4
       .col.col-lg-10.col-12.order-lg-2.order-2
-        .cajon.cajon.C01.color-primario.p-4.mb-4
+        .cajon.cajon.C01.color-primario.p-4
           p.mb-0(data-aos="fade-down") En el diseño de bases de datos, estos elementos deben ser cuidadosamente analizados y controlados, debido a que una mala gestión puede generar errores, duplicidad de información y dificultades en la toma de decisiones. Por ello, comprender su naturaleza, causas y efectos permite diseñar sistemas más robustos y eficientes.
-        p.mb-0(data-aos="fade-down") A continuación, se explica en qué consiste cada uno de estos componentes:
+    p.mb-4(data-aos="fade-down") A continuación, se explica en qué consiste cada uno de estos componentes:
     AcordionA.mb-4(tipo="a" clase-tarjeta="tarjeta tarjeta--C03" data-aos="zoom-in")
       .row.justify-content-center(titulo="Redundancia de datos")
         .col-12.col-lg-6.order-lg-1.order-2
@@ -334,8 +334,8 @@
           h4.text-center Optimización de consultas
           p Mejora el rendimiento en la recuperación de información.
     .row.justify-content-center.mb-4
-      .col.col-lg-10.col-12
-        p.mb-0(data-aos="fade-down") La siguiente imagen explica cómo está estructurada la arquitectura de un DBMS.
+      .col.col-12
+        p.mb-0(data-aos="fade-down") La siguiente figura explica cómo está estructurada la arquitectura de un DBMS.
     .row.justify-content-center.mb-4(data-aos="flip-up")
       .col-lg-10.col-12
         .titulo-sexto.color-acento-contenido
@@ -433,7 +433,7 @@
           p Gestiona las transacciones dentro de la base de datos, permitiendo confirmar, deshacer o agrupar operaciones para asegurar la consistencia e integridad de los datos.
     .row.justify-content-center.mb-4
       .col.col-lg-10.col-12
-        p.mb-0(data-aos="fade-down") Para complementar lo anterior y terne mayor claridad sobre los DBMS, se presenta el siguiente esquema:
+        p.mb-0(data-aos="fade-down") Para complementar lo anterior y tener mayor claridad sobre los DBMS, se presenta el siguiente esquema:
     .row.justify-content-center.mb-0(data-aos="flip-up")
       .col-lg-10.col-12
         .titulo-sexto.color-acento-contenido
@@ -449,7 +449,7 @@
     separador
     #t_2_4.titulo-segundo.color-acento-contenido(data-aos="flip-up")
       h2 2.4 Modelos de diseño de bases de datos
-    p.mb-4(data-aos="fade-down") En el contexto del diseño y modelado de bases de datos, la representación de la información permite transformar datos del mundo real en estructuras formales que pueden ser interpretadas por sistemas computacionales. Esto es esencial para garantizar que la información sea consistente, accesible y útil para la toma de decisiones.
+    p.mb-4(data-aos="fade-down") El diseño de bases de datos es un proceso fundamental dentro del desarrollo de sistemas de información, ya que permite estructurar, organizar y representar los datos de manera eficiente antes de su implementación. Para lograrlo, se emplean distintos modelos de diseño que permiten abstraer la realidad en diferentes niveles de detalle, facilitando la comprensión, análisis y construcción de la base de datos.
     .row.justify-content-center.align-items-strench.mb-4
       .col-lg-6.col-12.order-lg-2.order-2
         .cajon.cajon.C01.color-primario.p-4.mb-4

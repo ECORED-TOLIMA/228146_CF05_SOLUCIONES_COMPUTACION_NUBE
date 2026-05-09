@@ -167,7 +167,7 @@
     p.mb-4(data-aos="fade-down") El modelo relacional constituye uno de los pilares fundamentales en el diseño de bases de datos, ya que proporciona una estructura lógica que permite organizar la información en forma de tablas relacionadas entre sí. Este modelo, propuesto por Edgar F. Codd, se basa en principios matemáticos derivados de la teoría de conjuntos y la lógica formal, lo que garantiza un manejo consistente, preciso y estructurado de los datos.
     .bloque-texto-g.bloque-texto-g--inverso.color-primario.p-3.p-sm-4.p-md-5.mb-4(data-aos="flip-up")
       .bloque-texto-g__img(
-        :style="{'background-image': `url(${require('@/assets/curso/tema1/img01.jpg')})`}"
+        :style="{'background-image': `url(${require('@/assets/curso/tema3/img35.jpg')})`}"
       )
       .bloque-texto-g__texto.p-4
         p.mb-0(data-aos="fade-down") En el contexto del diseño de bases de datos relacionales, el modelo relacional permite representar entidades del mundo real mediante relaciones (tablas), facilitando la manipulación de la información a través de operaciones bien definidas. Este enfoque ha sido ampliamente adoptado debido a su simplicidad conceptual, su robustez y su capacidad para mantener la integridad de los datos.
@@ -184,7 +184,7 @@
     .row.justify-content-center.mb-0
       .col.col-lg-5.col-8.col-md-6.order-lg-1.order-1.mb-lg-0.mb-3
         figure
-          img(src='@/assets/curso/tema2/img13.jpg', alt='Imagen decorativa')
+          img(src='@/assets/curso/tema3/img36.jpg', alt='Imagen decorativa')
       .col.col-lg-7.col-12.order-lg-2.order-2
         .cajon.cajon.C02.color-secundario.px-4.py-3.mb-2
           p.mb-0(data-aos="fade-down") En este modelo, cada tabla posee una estructura definida que permite identificar de manera única cada registro y establecer relaciones con otras tablas. Esta estructura facilita la organización de la información y permite realizar consultas eficientes.
@@ -410,8 +410,8 @@
               figure
                 img(src='@/assets/curso/tema3/img32.jpg', alt='Imagen decorativa')
     .row.justify-content-center.mb-4
-      .col.col-lg-10.col-12
-        p.mb-0(data-aos="fade-down") Para finalizar se detallas las siguientes acciones positivas y negativas de estos campos:
+      .col.col-12
+        p.mb-0(data-aos="fade-down") Para finalizar se detallan las siguientes acciones positivas y negativas de estos campos:
     .row.justify-content-center.mb-0(data-aos="flip-up")
       .col.col-12
         .tarjeta--container.row

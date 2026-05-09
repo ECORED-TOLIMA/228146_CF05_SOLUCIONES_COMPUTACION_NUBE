@@ -161,17 +161,17 @@
           template(v-slot:imagen)
             figure
               img(src='@/assets/curso/tema4/img12.svg', alt='Imagen decorativa')
-          .tarjeta.color-acento-botones.p-3(x="73%" y="15%" numero="+")
+          .tarjeta.color-acento-contenido.p-3(x="73%" y="15%" numero="+")
             p.mb-0 Restricción de valor único, permite que solo se permitan valores únicos sobre este campo.
-          .tarjeta.color-acento-botones.p-3(x="73%" y="25.5%" numero="+")
+          .tarjeta.color-acento-contenido.p-3(x="73%" y="25.5%" numero="+")
             p.mb-0 Restricción de predeterminado, permite que de no llenarse el campo el asigne de manera automática un valor.
-          .tarjeta.color-acento-botones.p-3(x="73%" y="36%" numero="+")
+          .tarjeta.color-acento-contenido.p-3(x="73%" y="36%" numero="+")
             p.mb-0 Restricción de llave primaria, garantiza que este campo no permita duplicados y será el identificador único de cada fil.
-          .tarjeta.color-acento-botones.p-3(x="73%" y="46.5%" numero="+")
+          .tarjeta.color-acento-contenido.p-3(x="73%" y="46.5%" numero="+")
             p.mb-0 Una restricción de llave foránea hace que este campo guarde relación con un campo de otra tabla, al que hace referencia y no permite ingresar un valor si no existe en el campo de la otra tabla.
-          .tarjeta.color-acento-botones.p-3(x="73%" y="57%" numero="+")
+          .tarjeta.color-acento-contenido.p-3(x="73%" y="57%" numero="+")
             p.mb-0 Restricción de regla de validación, no permite ingresar un valor al campo si este no cumple con la condición especificada.
-          .tarjeta.color-acento-botones.p-3(x="73%" y="68%" numero="+")
+          .tarjeta.color-acento-contenido.p-3(x="73%" y="68%" numero="+")
             p.mb-0 Asigna la fecha actual automáticamente si no se proporciona un valor.
     .row.justify-content-center.col-12
         figure.movil

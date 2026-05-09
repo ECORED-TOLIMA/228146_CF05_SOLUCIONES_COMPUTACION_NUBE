@@ -75,7 +75,7 @@
           li
             i.fas.fa-cloud-arrow-down
             p.mb-0 Optimizar procesos de consulta y almacenamiento.
-        p.mb-0(data-aos="fade-down") La siguiente imagen da una relación explicitica al respeto entre estos procesos:
+        p.mb-0(data-aos="fade-down") La siguiente figura da una relación explícita al respeto entre estos procesos:
       .col-lg-4.col-8.col-md-6.order-lg-2.order-1.mb-lg-0.mb-4
         figure.mb-0
           img(src='@/assets/curso/tema1/img06.jpg', alt='Imagen decorativa')
@@ -147,7 +147,7 @@
                 .tarjeta.tarjeta--slyder.px-3.py-4
                   .row.justify-content-center.mb-3
                     .col-6.col-lg-8
-                      img(src="@/assets/curso/tema1/img08.svg", alt="Imagen decorativa").img100.m-auto
+                      img(src="@/assets/curso/tema1/img08.svg", alt="Imagen decorativa").img85.m-auto
                   p Definir estructuras de almacenamiento de datos.
                 .tarjeta.tarjeta--slyder.p-4
                   .row.justify-content-center.mb-3
@@ -522,6 +522,15 @@
                 td(data-aos="fade-down") Grafos
                 td(data-aos="fade-down") Representan relaciones complejas.
                 td(data-aos="fade-down") Neo4j.
+    .row.justify-content-center.mb-3
+      .col.col-12
+        .row.align-items-center(data-aos="flip-down")
+          .col-auto.pe-0(style="z-index:2")
+            figure
+              img(src='@/assets/curso/ico.svg', style="width: 55px" ,alt='').m-auto
+          .col-lg-auto.col-9.titulo01(style="z-index:1")
+            .p-2
+              h3.mb-0.ms-lg-2.ms-md-3.ms-1 Bases de datos In-Memory
     .row.justify-content-center.mb-4
       .col.col-lg-5.col-8.col-md-6.order-lg-1.order-1.mb-lg-0.mb-3
         figure
