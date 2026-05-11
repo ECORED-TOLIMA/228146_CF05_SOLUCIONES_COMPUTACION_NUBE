@@ -155,7 +155,7 @@
                   p.mb-0 FOREIGN KEY (ID_Cliente) REFERENCES Cliente(ID_Cliente)
                   p.mb-0 );
             p.mb-0.order-lg-3.order-3(data-aos="fade-down") Para entender de mejor manera el tema de las restricciones, se detalla el siguiente esquema explicativo:
-    .row.justify-content-center.mb-4
+    .row.justify-content-center.mb-4.desktop
       .col.col-lg-10.col-12
         ImagenInfografica.color-acento-botones
           template(v-slot:imagen)
@@ -173,7 +173,7 @@
             p.mb-0 Restricción de regla de validación, no permite ingresar un valor al campo si este no cumple con la condición especificada.
           .tarjeta.color-acento-contenido.p-3(x="73%" y="68%" numero="+")
             p.mb-0 Asigna la fecha actual automáticamente si no se proporciona un valor.
-    .row.justify-content-center.col-12
+    .row.justify-content-center.col-12.mb-4
         figure.movil
           img(src='@/assets/curso/tema4/img13.svg', alt='Imagen decorativa')
     .tarjeta.tarjeta--C11.px-4.py-3.d-inline-block.mb-4

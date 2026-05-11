@@ -88,9 +88,15 @@
         .col-10
           figure.desktop
             img(src='@/assets/curso/tema1/img07.svg', alt='Figura 1 que presenta un esquema comparativo de los niveles de diseño de datos, mostrando la evolución desde un modelo conceptual hasta un modelo lógico y físico, a partir de las entidades de tiempo, producto, tienda y ventas, así como sus relaciones y estructura progresiva para el análisis de información.')
-      .col-12
+      .col-12.mb-4
         figure.movil
           img(src='@/assets/curso/tema1/img07_.svg', alt='Figura 1 que presenta un esquema comparativo de los niveles de diseño de datos, mostrando la evolución desde un modelo conceptual hasta un modelo lógico y físico, a partir de las entidades de tiempo, producto, tienda y ventas, así como sus relaciones y estructura progresiva para el análisis de información.')
+      .col-auto.movil
+        a.anexo.mb-0(:href="obtenerLink('/downloads/Anexo_Relacion_entre_logica_ algoritmia_y_bases_de_datos.pdf')" target="_blank")
+          .anexo__icono
+            img(src="@/assets/bullets/icono-pdf.svg")
+          .anexo__texto
+            p Anexo. Relación entre lógica, algoritmia y bases de datos
     .row.justify-content-center.mb-3
       .col.col-12
         .row.align-items-center.mb-0(data-aos="flip-down")
@@ -273,9 +279,15 @@
         .col-10
           figure.desktop
             img(src='@/assets/curso/tema1/img17.svg', alt='Figura 2 que ilustra el proceso de representación de datos en un sistema académico, mostrando cómo se organizan y relacionan entidades como alumnos, tutores, profesores y asignaturas. El esquema incluye atributos personales, académicos y administrativos, así como procesos de matriculación, asignación e importación, evidenciando la estructura necesaria para el modelado de bases de datos.')
-      //- .col-12
+      //- .col-12.mb-4
       //-   figure.movil
       //-     img(src='@/assets/curso/tema1/img18.svg', alt='Figura 2 que ilustra el proceso de representación de datos en un sistema académico, mostrando cómo se organizan y relacionan entidades como alumnos, tutores, profesores y asignaturas. El esquema incluye atributos personales, académicos y administrativos, así como procesos de matriculación, asignación e importación, evidenciando la estructura necesaria para el modelado de bases de datos.')
+      .col-auto.movil
+        a.anexo.mb-0(:href="obtenerLink('/downloads/Anexo_Proceso_de_representación_de_la_informacion.pdf')" target="_blank")
+          .anexo__icono
+            img(src="@/assets/bullets/icono-pdf.svg")
+          .anexo__texto
+            p Anexo. Proceso de representación de la información
     .row.justify-content-center.mb-3
       .col.col-12.col-lg-10
         .row.align-items-center.mb-4(data-aos="flip-down")

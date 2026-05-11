@@ -155,9 +155,15 @@
         .col-10
           figure.desktop
             img(src='@/assets/curso/tema2/img10.svg', alt='Figura 5 que representa el modelo conceptual de una base de datos, mostrando las entidades autor, libro, ejemplar y usuario, junto con sus atributos principales. El diagrama ilustra las relaciones entre dichas entidades, indicando las cardinalidades uno a uno, uno a muchos y muchos a muchos, así como los procesos de escritura, préstamo y asociación dentro de un sistema bibliográfico.')
-      .col-12
+      .col-12.mb-4
         figure.movil
           img(src='@/assets/curso/tema2/img11.svg', alt='Figura 5 que representa el modelo conceptual de una base de datos, mostrando las entidades autor, libro, ejemplar y usuario, junto con sus atributos principales. El diagrama ilustra las relaciones entre dichas entidades, indicando las cardinalidades uno a uno, uno a muchos y muchos a muchos, así como los procesos de escritura, préstamo y asociación dentro de un sistema bibliográfico.')
+      .col-auto.movil
+        a.anexo.mb-0(:href="obtenerLink('/downloads/Anexo_Representacion_conceptual_de_una_relacion.pdf')" target="_blank")
+          .anexo__icono
+            img(src="@/assets/bullets/icono-pdf.svg")
+          .anexo__texto
+            p Anexo. Representación conceptual de una relación
     .row.justify-content-center.mb-3
       .col.col-12
         .row.align-items-center(data-aos="flip-down")
@@ -443,9 +449,15 @@
         .col-10
           figure.desktop
             img(src='@/assets/curso/tema2/img35.svg', alt='Figura 7 que muestra un diagrama de flujo del proceso de interacción entre el usuario, el sistema y la base de datos, describiendo las etapas de inicio de sesión, validación de credenciales, recuperación de contraseña y ejecución de operaciones como consulta y pago, hasta la confirmación y finalización del proceso.')
-      .col-12
+      .col-12.mb-4
         figure.movil
           img(src='@/assets/curso/tema2/img36.svg', alt='Figura 7 que muestra un diagrama de flujo del proceso de interacción entre el usuario, el sistema y la base de datos, describiendo las etapas de inicio de sesión, validación de credenciales, recuperación de contraseña y ejecución de operaciones como consulta y pago, hasta la confirmación y finalización del proceso.')
+      .col-auto.movil
+        a.anexo.mb-0(:href="obtenerLink('/downloads/Anexo_Interaccion_usuario-DBMS-base_de_datos.pdf')" target="_blank")
+          .anexo__icono
+            img(src="@/assets/bullets/icono-pdf.svg")
+          .anexo__texto
+            p Anexo. Interacción usuario – DBMS – base de datos
     separador
     #t_2_4.titulo-segundo.color-acento-contenido(data-aos="flip-up")
       h2 2.4 Modelos de diseño de bases de datos
@@ -661,9 +673,15 @@
         .col-10
           figure.desktop
             img(src='@/assets/curso/tema2/img49.svg', alt='Figura 10 que representa un modelo físico de una base de datos relacional para la gestión de eventos deportivos y venta de entradas. En la imagen se detallan tablas como person, ticket, sporting_event, sporting_team, sport_location, city y ticket_purchase_hist, cada una con sus claves primarias y foráneas. El diagrama muestra las relaciones entre personas, equipos, eventos, ubicaciones y compras de tickets, evidenciando cómo se estructuran los datos, se definen las dependencias entre tablas y se garantiza la integridad referencial dentro del sistema.')
-      .col-12
+      .col-12.mb-4
         figure.movil
           img(src='@/assets/curso/tema2/img50.svg', alt='Figura 10 que representa un modelo físico de una base de datos relacional para la gestión de eventos deportivos y venta de entradas. En la imagen se detallan tablas como person, ticket, sporting_event, sporting_team, sport_location, city y ticket_purchase_hist, cada una con sus claves primarias y foráneas. El diagrama muestra las relaciones entre personas, equipos, eventos, ubicaciones y compras de tickets, evidenciando cómo se estructuran los datos, se definen las dependencias entre tablas y se garantiza la integridad referencial dentro del sistema.')
+      .col-auto.movil
+        a.anexo.mb-0(:href="obtenerLink('/downloads/Anexo_Ejemplo_modelo_fisico_(SQL).pdf')" target="_blank")
+          .anexo__icono
+            img(src="@/assets/bullets/icono-pdf.svg")
+          .anexo__texto
+            p Anexo. Ejemplo modelo físico (SQL)
     .row.justify-content-center.mb-4
       .col.col-lg-10.col-12
         .row.justify-content-center.cajon.cajon.C01.p-4
