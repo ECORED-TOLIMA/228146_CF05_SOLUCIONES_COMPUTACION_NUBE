@@ -266,10 +266,12 @@
           li
             i.fas.fa-cloud-arrow-down
             p.mb-0 Optimizar el acceso y procesamiento de la información.
-        p.mb-0(data-aos="fade-down") A continuación, se detalla un ejemplo sobre el proceso de la información:
       .col-lg-4.col-8.col-md-6.order-lg-1.order-1.mb-lg-0.mb-4
         figure.mb-0
           img(src='@/assets/curso/tema1/img16.jpg', alt='Imagen decorativa')
+    .row.justify-content-center.mb-4
+      .col-lg-10.col-12
+        p.mb-0(data-aos="fade-down") A continuación, se detalla un ejemplo sobre el proceso de la información:
     .row.justify-content-center.mb-4(data-aos="flip-up")
       .col-lg-10.col-12
         .titulo-sexto.color-acento-contenido
@@ -386,27 +388,30 @@
             .h2 4
           h5.text-center Modelo NoSQL
           p.text-center Permite estructuras flexibles para grandes volúmenes de datos.
-    .row.BG02.justify-content-center.align-items-center.px-3.mb-4(data-aos="flip-up")
+    .row.BG02.justify-content-center.px-3.mb-4(data-aos="flip-up")
       .col-lg-4.col-12.mb-md-0.order-lg-2.order-2.mb-lg-0
         p.text-bold.mb-0(data-aos="fade-down") Ejemplo aplicado
-        p.mb-4(data-aos="fade-down") Supóngase un sistema de estudiantes:
+        p.mb-2(data-aos="fade-down") Supóngase un sistema de estudiantes:
         p.mb-0(data-aos="fade-down") Nombre: Juan
         p.mb-0(data-aos="fade-down") Edad: 20
-        p(data-aos="fade-down") Curso: Programación
-        p.mb-0.text-bold(data-aos="fade-down") Representación:
-        .row.justify-content-center
-          .col-lg-3.col-12
-            p.text-bold ID_Estudiante
-            p 1
-          .col-lg-3.col-12
-            p.text-bold Nombre
-            p Juan
-          .col-lg-3.col-12
-            p.text-bold Edad
-            p 20
-          .col-lg-3.col-12
-            p.text-bold Curso
-            p Programación
+        p.mb-2(data-aos="fade-down") Curso: Programación
+        p.mb-3.text-bold(data-aos="fade-down") Representación:
+        .row.justify-content-center.mb-3(data-aos="flip-up")
+          .col.col-12
+            .tabla-a.color-acento-contenido
+              table
+                thead
+                  tr
+                    th(data-aos="fade-down")(style= "width: 20%") ID_Estudiante
+                    th(data-aos="fade-down")(style= "width: 20%") Nombre
+                    th(data-aos="fade-down")(style= "width: 20%") Edad
+                    th(data-aos="fade-down")(style= "width: 20%") Curso
+                tbody
+                  tr
+                    td(data-aos="fade-down")(style="background-color: #F0F8FF") 1
+                    td(data-aos="fade-down")(style="background-color: #F0F8FF") Juan
+                    td(data-aos="fade-down")(style="background-color: #F0F8FF") 20
+                    td(data-aos="fade-down")(style="background-color: #F0F8FF") Programación
         p.text-bold.mb-0(data-aos="fade-down") Modelo de base de datos
         ul.lista-ul.mb-0
           li.mb-0
@@ -415,7 +420,7 @@
           li.mb-0
             i.lista-ul__vineta
             p <b>Atributos</b>: ID_Estudiante, Nombre, Edad, Curso
-      .col-lg-6.col-sm-4.col-5.order-lg-1.order-1.mb-lg-0.mb-4.d-none.d-lg-block
+      .col-lg-7.col-sm-4.col-5.order-lg-1.order-1.mb-lg-0.mb-4.d-none.d-lg-block
         figure
           img(src='@/assets/curso/tema1/img21.jpg', alt='Imagen decorativa')
     .row.justify-content-center.align-items-strench.mb-4
@@ -686,7 +691,7 @@
       .col.col-lg-7.col-12.order-lg-1.order-2
         p.mb-4(data-aos="fade-down") El análisis de los usos, diferencias y ventajas de los distintos tipos de bases de datos constituye un aspecto fundamental en el diseño de sistemas de información, ya que permite seleccionar la tecnología más adecuada según las necesidades del entorno, el volumen de datos, la velocidad requerida y el tipo de aplicación a desarrollar. En la actualidad, la diversidad de modelos de bases de datos responde a la evolución de los sistemas digitales, los cuales demandan soluciones más flexibles, escalables y eficientes.
         .cajon.cajon.C01.color-primario.p-4.mb-4
-          p.mb-0(data-aos="fade-down") Cada tipo de base de datos —relacional, NoSQL, in memory y NewSQL— presenta características particulares que influyen directamente en su uso, comportamiento y desempeño. Por ello, comprender sus diferencias no solo facilita su implementación, sino que también permite optimizar recursos y garantizar soluciones tecnológicas adecuadas.
+          p.mb-0(data-aos="fade-down") Cada tipo de base de datos — relacional, NoSQL, in memory y NewSQL — presenta características particulares que influyen directamente en su uso, comportamiento y desempeño. Por ello, comprender sus diferencias no solo facilita su implementación, sino que también permite optimizar recursos y garantizar soluciones tecnológicas adecuadas.
     .row.justify-content-center.mb-3
       .col.col-12
         .row.align-items-center(data-aos="flip-down")

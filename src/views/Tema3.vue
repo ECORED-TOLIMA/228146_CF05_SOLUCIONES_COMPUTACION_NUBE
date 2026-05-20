@@ -209,9 +209,9 @@
           p.mb-0(data-aos="fade-down") Las claves no solo cumplen una función de identificación, sino que también permiten estructurar las relaciones entre los datos, evitando duplicidades y asegurando que la información se mantenga consistente en todo momento. En este contexto, los tipos de claves más relevantes son la clave primaria, la clave foránea y las claves candidatas.
     .row.justify-content-center.align-items-center.mb-4
       .col.col-lg-10.col-12.order-lg-2.order-2
-        .cajon.cajon.C03.p-4.mb-4
+        .cajon.cajon.C03.p-4.mb-0
           p.mb-0(data-aos="fade-down") Las claves son esenciales para garantizar la unicidad de los datos y la correcta relación entre las tablas dentro de una base de datos.
-        p.mb-0(data-aos="fade-down") Basado en lo anterior, los tipos de claves son:
+    p.mb-4(data-aos="fade-down") Basado en lo anterior, los tipos de claves son:
     .row.justify-content-center.mb-4
       .col.col-lg-8.col-12.mb-md-0.order-lg-2.order-2
         AcordionA(tipo="b" clase-tarjeta="tarjeta tarjeta--C03")

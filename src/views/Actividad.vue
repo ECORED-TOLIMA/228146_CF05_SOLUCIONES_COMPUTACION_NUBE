@@ -127,10 +127,10 @@ export default {
           imagen: require('@/assets/actividad/imagen6.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'DML.', esCorrecta: false },
-            { id: 'b', texto: 'DDL.', esCorrecta: true },
-            { id: 'c', texto: 'DCL.', esCorrecta: false },
-            { id: 'd', texto: 'VDL.', esCorrecta: false },
+            { id: 'a', texto: 'DML', esCorrecta: false },
+            { id: 'b', texto: 'DDL', esCorrecta: true },
+            { id: 'c', texto: 'DCL', esCorrecta: false },
+            { id: 'd', texto: 'VDL', esCorrecta: false },
           ],
           mensaje_correcto:
             '¡Excelente trabajo! DDL se utiliza para definir estructuras como tablas.',
@@ -159,10 +159,10 @@ export default {
           imagen: require('@/assets/actividad/imagen8.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'DDL.', esCorrecta: false },
-            { id: 'b', texto: 'DML.', esCorrecta: false },
-            { id: 'c', texto: 'DCL.', esCorrecta: true },
-            { id: 'd', texto: 'TCL.', esCorrecta: false },
+            { id: 'a', texto: 'DDL', esCorrecta: false },
+            { id: 'b', texto: 'DML', esCorrecta: false },
+            { id: 'c', texto: 'DCL', esCorrecta: true },
+            { id: 'd', texto: 'TCL', esCorrecta: false },
           ],
           mensaje_correcto:
             '¡Excelente trabajo! DCL gestiona accesos mediante GRANT y REVOKE.',

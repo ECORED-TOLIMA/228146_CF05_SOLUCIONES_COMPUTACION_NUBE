@@ -161,11 +161,11 @@
               tr
                 td(data-aos="fade-down")(style="background-color: #F0F8FF") Columnar.
                 td(data-aos="fade-down")(style="background-color: #F0F8FF") Organiza los datos por columnas en lugar de filas.
-                td(data-aos="fade-down")(style="background-color: #F0F8FF") <em>Big data</em>, análisis
+                td(data-aos="fade-down")(style="background-color: #F0F8FF") <em>Big data</em>, análisis.
               tr
                 td(data-aos="fade-down") Grafos.
                 td(data-aos="fade-down") Representa los datos mediante nodos y relaciones.
-                td(data-aos="fade-down") Redes sociales
+                td(data-aos="fade-down") Redes sociales.
     .row.justify-content-center.mb-0
       .col.col-lg-10.col-12
         .cajon.cajon.C02.p-4

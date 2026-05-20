@@ -208,30 +208,37 @@
     p.mb-4(data-aos="fade-down") A continuación, se explica en qué consiste cada uno de estos componentes:
     AcordionA.mb-4(tipo="a" clase-tarjeta="tarjeta tarjeta--C03" data-aos="zoom-in")
       .row.justify-content-center(titulo="Redundancia de datos")
-        .col-12.col-lg-6.order-lg-1.order-2
+        .col-12.col-lg-9.order-lg-1.order-2
           p Se refiere a la duplicación innecesaria de información dentro de una base de datos. Este fenómeno ocurre cuando un mismo dato se almacena en múltiples lugares sin una justificación válida, lo que puede generar problemas de almacenamiento, mantenimiento y actualización.
           p Desde una perspectiva técnica, la redundancia puede surgir por un diseño inadecuado de la base de datos, donde no se han aplicado correctamente principios como la normalización. Aunque en algunos casos la redundancia puede ser intencional para mejorar el rendimiento, en la mayoría de los escenarios representa una debilidad en la estructura del sistema.
           p Por ejemplo, si en varias tablas se almacena repetidamente la información de un cliente (nombre, dirección, teléfono), se genera redundancia que puede afectar la eficiencia del sistema. 
-          .row
-            .col.col-lg-4.col-12
-              h5 ID Cliente
-              p 1
-              p 2
-              p 3
-            .col.col-lg-4.col-12
-              h5 Nombre
-              p Juan
-              p Ana
-              p Pedro
-            .col.col-lg-4.col-12
-              h5 Ciudad
-              p Ibagué
-              p Ibagué
-              p Ibagué
-          p En este caso, el valor "Ibagué" se repite innecesariamente, lo que podría optimizarse mediante una estructura relacional más adecuada.
-        .col-12.col-lg-6.order-lg-2.order-1
+        .col-12.col-lg-3.order-lg-2.order-1.mb-4
           figure
             img(src='@/assets/curso/tema2/img14.jpg', alt='Imagen decorativa')
+        .col-12.col-lg-12.order-lg-3.order-3
+          .row.justify-content-center.mb-3(data-aos="flip-up")
+            .col.col-12
+              .tabla-a.color-acento-contenido
+                table
+                  thead
+                    tr
+                      th(data-aos="fade-down")(style= "width: 25%") ID Cliente
+                      th(data-aos="fade-down")(style= "width: 25%") Nombre
+                      th(data-aos="fade-down")(style= "width: 25%") Ciudad
+                  tbody
+                    tr
+                      td(data-aos="fade-down")(style="background-color: #F0F8FF") 1
+                      td(data-aos="fade-down")(style="background-color: #F0F8FF") Juan
+                      td(data-aos="fade-down")(style="background-color: #F0F8FF") Ibagué
+                    tr
+                      td(data-aos="fade-down") 2
+                      td(data-aos="fade-down") Ana
+                      td(data-aos="fade-down") Ibagué
+                    tr
+                      td(data-aos="fade-down")(style="background-color: #F0F8FF") 3
+                      td(data-aos="fade-down")(style="background-color: #F0F8FF") Pedro
+                      td(data-aos="fade-down")(style="background-color: #F0F8FF") Ibagué
+          p En este caso, el valor "Ibagué" se repite innecesariamente, lo que podría optimizarse mediante una estructura relacional más adecuada.
       .row.justify-content-center(titulo="Inconsistencia de datos")
         .col-12.col-lg-6.order-lg-1.order-2
           p Se presenta cuando existen discrepancias en la información almacenada; es decir, cuando un mismo dato presenta diferentes valores en distintas partes de la base de datos. Este problema está directamente relacionado con la redundancia, ya que la duplicación de datos aumenta la probabilidad de inconsistencias.
