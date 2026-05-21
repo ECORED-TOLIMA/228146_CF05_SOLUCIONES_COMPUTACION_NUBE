@@ -309,7 +309,7 @@
     .row.justify-content-center.mb-4(data-aos="flip-up")
       .col.col-12.col-lg-10
         .titulo-sexto.color-acento-contenido
-          h5 Tabla 6.
+          h5 Tabla 7.
           span Comparación de entidades
         .tabla-a.color-acento-contenido
           table

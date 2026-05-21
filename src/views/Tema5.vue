@@ -140,7 +140,7 @@
     .row.justify-content-center.mb-4(data-aos="flip-up")
       .col.col-12.col-lg-10
         .titulo-sexto.color-acento-contenido
-          h5 Tabla 7.
+          h5 Tabla 8.
           span Modelos de bases de datos NoSQL
         .tabla-a.color-acento-contenido
           table

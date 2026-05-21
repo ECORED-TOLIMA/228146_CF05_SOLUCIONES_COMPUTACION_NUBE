@@ -218,6 +218,9 @@
         .col-12.col-lg-12.order-lg-3.order-3
           .row.justify-content-center.mb-3(data-aos="flip-up")
             .col.col-12
+              .titulo-sexto.color-acento-contenido
+                h5 Tabla 6.
+                span Redundancia de datos
               .tabla-a.color-acento-contenido
                 table
                   thead
