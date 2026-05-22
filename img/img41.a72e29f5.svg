@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="396" height="370" viewBox="0 0 396 370">
+  <g id="Grupo_1212396" data-name="Grupo 1212396" transform="translate(3764 -2000)">
+    <g id="Grupo_1212308" data-name="Grupo 1212308" transform="translate(-4054 -12812)">
+      <path id="Trazado_1285295" data-name="Trazado 1285295" d="M18,0H378a18,18,0,0,1,18,18V352a18,18,0,0,1-18,18H18A18,18,0,0,1,0,352V18A18,18,0,0,1,18,0Z" transform="translate(290 14812)" fill="#cfe8ff"/>
+      <g id="Grupo_1212306" data-name="Grupo 1212306" transform="translate(0 -63)">
+        <text id="_1:M" data-name="1:M" transform="translate(470.305 14929.832)" fill="#12263f" font-size="17" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="4.279" y="18">1:M</tspan></text>
+        <text id="N:M" transform="translate(648 15138.589)" fill="#12263f" font-size="17" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="3.154" y="18">N:M</tspan></text>
+        <text id="_1" data-name="1" transform="translate(394 14978)" fill="#12263f" font-size="17" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="14.123" y="18">1</tspan></text>
+        <text id="_" data-name="*" transform="translate(544 14978)" fill="#12263f" font-size="17" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="15.148" y="18">*</tspan></text>
+        <text id="_2" data-name="*" transform="translate(617 15029)" fill="#12263f" font-size="17" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="15.148" y="18">*</tspan></text>
+        <text id="_3" data-name="*" transform="translate(527 15083)" fill="#12263f" font-size="17" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="15.148" y="18">*</tspan></text>
+        <path id="Trazado_1284865" data-name="Trazado 1284865" d="M0,0V162.609" transform="translate(570.609 15009.5) rotate(90)" fill="none" stroke="#344866" stroke-width="3"/>
+        <path id="Trazado_1284877" data-name="Trazado 1284877" d="M0,0V39.906" transform="translate(570.609 15109.5) rotate(90)" fill="none" stroke="#344866" stroke-width="3"/>
+        <path id="Trazado_1284878" data-name="Trazado 1284878" d="M0,0V39.906" transform="translate(620.828 15064.953) rotate(180)" fill="none" stroke="#344866" stroke-width="3"/>
+        <path id="Trazado_1284873" data-name="Trazado 1284873" d="M0,0V92.063" transform="matrix(-0.848, -0.53, 0.53, -0.848, 584, 15007.906)" fill="none" stroke="#344866" stroke-width="3"/>
+        <path id="Trazado_1284874" data-name="Trazado 1284874" d="M0,0V92.063" transform="matrix(0.848, 0.53, -0.53, 0.848, 383.286, 15027)" fill="none" stroke="#344866" stroke-width="3"/>
+        <path id="Trazado_1284875" data-name="Trazado 1284875" d="M0,0V92.063" transform="matrix(0.848, 0.53, -0.53, 0.848, 460, 15120.258)" fill="none" stroke="#344866" stroke-width="3"/>
+        <path id="Trazado_1284876" data-name="Trazado 1284876" d="M0,0V92.063" transform="matrix(0.848, 0.53, -0.53, 0.848, 613.393, 15120.258)" fill="none" stroke="#344866" stroke-width="3"/>
+        <rect id="Rectángulo_465321" data-name="Rectángulo 465321" width="90.041" height="90.041" rx="18" transform="translate(488 14945.332) rotate(45)" fill="#69d7e5"/>
+        <rect id="Rectángulo_465329" data-name="Rectángulo 465329" width="90.041" height="90.041" rx="18" transform="translate(620 15045) rotate(45)" fill="#69d7e5"/>
+        <text id="Realiza" transform="translate(436.335 14998.159)" fill="#12263f" font-size="17" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="23.528" y="18">Realiza</tspan></text>
+        <text id="Se_compone" data-name="Se compone" transform="translate(583 15082.748)" fill="#12263f" font-size="17" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="28.013" y="18">Se </tspan><tspan x="2.289" y="42">compone</tspan></text>
+        <rect id="Rectángulo_465326" data-name="Rectángulo 465326" width="104" height="39" rx="19.5" transform="translate(304 14990)" fill="#6cb9ff"/>
+        <rect id="Rectángulo_465327" data-name="Rectángulo 465327" width="104" height="39" rx="19.5" transform="translate(568 14990)" fill="#6cb9ff"/>
+        <rect id="Rectángulo_465330" data-name="Rectángulo 465330" width="104" height="39" rx="19.5" transform="translate(437 15090)" fill="#6cb9ff"/>
+        <text id="Cliente" transform="translate(325 14998)" fill="#12263f" font-size="17" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="4.61" y="18">Cliente</tspan></text>
+        <text id="Pedido" transform="translate(589 14998)" fill="#12263f" font-size="17" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="4.784" y="18">Pedido</tspan></text>
+        <text id="Artículo" transform="translate(458 15098)" fill="#12263f" font-size="17" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="1.024" y="18">Artículo</tspan></text>
+        <ellipse id="Elipse_13772" data-name="Elipse 13772" cx="63.5" cy="28" rx="63.5" ry="28" transform="translate(557 14892)" fill="#ffd453"/>
+        <ellipse id="Elipse_13773" data-name="Elipse 13773" cx="63.5" cy="28" rx="63.5" ry="28" transform="translate(290 15074)" fill="#ffd453"/>
+        <ellipse id="Elipse_13774" data-name="Elipse 13774" cx="63.5" cy="28" rx="63.5" ry="28" transform="translate(363 15172)" fill="#ffd453"/>
+        <ellipse id="Elipse_13775" data-name="Elipse 13775" cx="63.5" cy="28" rx="63.5" ry="28" transform="translate(517 15172)" fill="#ffd453"/>
+        <text id="Fecha" transform="translate(597.5 14906.832)" fill="#12263f" font-size="17" font-family="Roboto-Bold, Roboto" font-weight="700" text-decoration="underline"><tspan x="0.003" y="18">Fecha</tspan></text>
+        <text id="DNI" transform="translate(330.5 15088.832)" fill="#12263f" font-size="17" font-family="Roboto-Bold, Roboto" font-weight="700" text-decoration="underline"><tspan x="8.997" y="18">DNI</tspan></text>
+        <text id="Núm_Serie" data-name="Núm
+Serie" transform="translate(403.5 15176.5)" fill="#12263f" font-size="17" font-family="Roboto-Bold, Roboto" font-weight="700" text-decoration="underline"><tspan x="4.884" y="18">Núm</tspan><tspan x="3.232" y="42">Serie</tspan></text>
+        <text id="Cantidad" transform="translate(544.5 15186.832)" fill="#12263f" font-size="17" font-family="Roboto-Bold, Roboto" font-weight="700" text-decoration="underline"><tspan x="1.859" y="18">Cantidad</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>
